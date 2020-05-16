@@ -6,6 +6,15 @@
  /*Копирайт rgba(255, 255, 255, 0.4); */
  /*Фон "Наша команда" F5F4FA */
  /* Фон "Футтер" 2F303A */
+ html{
+     box-sizing: border-box;
+ }
+ *
+ *::before
+ *::after{
+    box-sizing:inherit;
+ }
+ 
 
  :root{
      --primary-text-color: #212121;
@@ -17,6 +26,7 @@
      background-color: #fff;
      color:var(--primary-text-color);
      font-family: Roboto, sans-serif;
+     margin: 0;
  }
  
  ul{
@@ -71,12 +81,24 @@
      background-color:var(--secondary-text-color) ;
      color:#FFFFFF  ;   
     
-     font-weight: 700;
+     font-weight: 400;
      font-size: 44px;
      line-height: 1.4;         
      text-align: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
+ }
+ .hero-button{
+     display: inline-block;
+     padding: 10px 32px;
+     background: var(--accent-color) ;
+     color:  #FFFFFF;
+     text-decoration: none;
+     border-radius: 4px;
+ }
+ .hero-button:hover, .hero-button:focus{
+    background:#FFFFFF ;
+    color:#212121  ;
  }
  
  /* Наши преимущества */
@@ -201,6 +223,20 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.footer-button{
+    display: inline-block;
+    background: var(--accent-color) ;
+    color:#FFFFFF ;
+    padding: 10px 45px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+.footer-button:hover, .footer-button:focus{
+    background:#FFFFFF ;
+    color:#212121  ;
+}
+
 .copyright{
     color:rgba(255, 255, 255, 0.4) ;    
 
@@ -215,24 +251,6 @@
 
     font-family: Raleway, sans-serif;
     text-decoration: none;
-}
-
-/* Button */
-.button{
-    color: var(--primary-text-color);
-    background-color:#FFFFFF ;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-}
-.button.primary{
-    background-color:var(--accent-color) ;
-    color:#FFFFFF ;
-}
-.button.secondary{
-    color:var(--accent-color) ;
-    background-color:#FFFFFF ;
 }
 
 /* Портфолио */
