@@ -157,6 +157,23 @@
      justify-content: center;
      
  }
+ .satelite{
+     background:var(--accent-color) ;
+     padding: 25px 100px;
+ }
+ .clock{
+     background:#F5F4FA; ;
+     padding: 25px 100px;
+ }
+ .diagram{
+     background:#F5F4FA; ;
+     padding: 25px 100px;
+     
+ }
+ .astronaut{
+    background:#F5F4FA; ;
+    padding: 25px 100px;
+ }
  
  
 
@@ -354,6 +371,7 @@
 .data{
     margin-top: 10px;
     margin-bottom: 0px;
+    padding: 0px;
 }
 
 
@@ -407,11 +425,14 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;  
+    text-transform: uppercase; 
+     
+    
 }
      
 .subscribe-footer{
-    margin-right: 216px;
+    
+    margin-right: 200px;
 }
 .footer-button{
     display: inline-block;
