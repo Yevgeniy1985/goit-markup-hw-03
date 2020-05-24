@@ -162,13 +162,13 @@
      padding: 10px 32px;
      text-align: center;
 
-     background: var(--accent-color) ;
+     background-color: var(--accent-color) ;
      color:  #FFFFFF;
      text-decoration: none;
      border-radius: 4px;
  }
  .hero-button:hover, .hero-button:focus{
-    background:#FFFFFF ;
+    background-color:#FFFFFF ;
     color:#212121  ;
  }
  .section{
@@ -194,9 +194,15 @@
  .advantage-list:last-child{
      margin-right: 0px;
  }
+ .satelite:hover, 
+ .satelite:focus{
+    background-color: var(--accent-color) ;
+ }
+   
+ 
  
  .satelite{
-     background:#F5F4FA; ;
+     background-color:#F5F4FA; ;
 
      padding: 25px 100px;
      margin-bottom: 30px;
@@ -210,9 +216,12 @@
  }
  
  .clock{
-     background:#F5F4FA; ;
+     background-color:#F5F4FA; ;
      padding: 25px 100px;
      margin-bottom: 30px;
+ }
+ .clock:hover, .clock:focus{
+    background-color: var(--accent-color) ;
  }
  .clock-cont{
     width: 270px;
@@ -220,10 +229,13 @@
     
  }
  .diagram{
-     background:#F5F4FA; ;
+     background-color:#F5F4FA; ;
      padding: 25px 100px;
      margin-bottom: 30px;
      
+ }
+ .diagram:hover, .diagram:focus{
+    background-color: var(--accent-color) ;
  }
  .diagram-cont{
     width: 270px;
@@ -231,9 +243,13 @@
     
  }
  .astronaut{
-    background:#F5F4FA; ;
+    background-color:#F5F4FA; ;
     padding: 25px 100px;
     margin-bottom: 30px;
+ }
+ .astronaut:hover,
+  .astronaut:focus{
+    background-color: var(--accent-color) ;  
  }
  .astronaut-cont{
     width: 270px;
@@ -388,12 +404,13 @@
  .clients-item{
      display: flex;
      justify-content:space-between;
-     
+     padding-left: 0px;
+     margin-top: 0px;
      
  }
  .logo1{
      padding-top: 20px;
-     padding-right: 66.7px;
+     padding-right: 66px;
      padding-bottom: 21px;
      padding-left: 59px;
  }
@@ -431,16 +448,12 @@
  }
  .clients-img{
     border: 1px solid #AFB1B8;
-    
     border-radius: 4px;
-    
-    
 
     margin-top: 0px;
     margin-right: 30px;
-     
-
-    width: 170px;
+    
+    min-width:170px ;
     
  }
  .clients-img:last-child{
