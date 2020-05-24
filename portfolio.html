@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,30 +10,37 @@
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
-      <header>
-        <nav>
-            <a href="./index.html" class="logo">
-                <span class="logo-item">Web</span> Studio</a>               
-            <ul class="navi">
-                <li><a href="./index.html" class="link" class="navigation">Студия</a></li>
-                <li><a href="./portfolio.html" class="link current" class="navigation">Портфолио</a></li>
-                <li><a href="" class="link" class="navigation">Контакты</a></li>
-            </ul>
-            <ul class="navi-contact">
-                <li><a href="" class="navigation">info@devstudio</a></li>
-                <li>+380961111111</li>
-            </ul>               
-            <ul>
-                <li><a href="" class="navigation">Login</a></li>
-                <li><a href="" class="navigation">Register</a></li>
-            </ul>     
-        </nav> 
-    </header>
+    <header>
+        <div class="conteiner head">
+            <nav class="header-nav">
+                
+                <a href="./index.html" class="logo">
+                    <span class="logo-item">Web</span> Studio</a>
+                        <ul class="navi">
+                            <li class="navi-list"><a href="" class="link current">Студия</a></li>
+                            <li class="navi-list"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                            <li class="navi-list"><a href="" class="link">Контакты</a></li>
+                        </ul>
+                    
+            </nav>                  
+                 
+                    <ul class="navi-contact">
+                        <li><a href="">info@devstudio</a></li>
+                        <li>+380961111111</li>
+                    </ul>               
+                 
+                <!-- <ul> 
+                    <li><a href="" class="button primary">Login</a></li>
+                    <li><a href="" class="button secondary">Register</a></li>
+                 </ul>      -->
+         </div>
+        </header>
+        
     <main>
         <section>
        <!-- Навигация -->
        <ul>
-        <li><button type="button">Все</button></li>
+        <li><a h><button type="button">Все</button></a></li>
         <li><button type="button">Веб-сайт</button></li>
         <li><button type="button">Приложение</button></li>
         <li><button type="button">Дизайн</button></li>
@@ -119,24 +126,23 @@
     </main>
     
     <!--Футер-->
-    <footer class="footer">   
-            <div>
-                      
-             <a href="./index.html" class="logotip navigation">
-                <span class="logo-item">Web</span> Studio</a>                                    
-             <address>
-                <ul>               
-                 <li><span class="address">г. Киев, пр-т Леси Украинки, 26</span><br/></li> 
-                 <li><a href="mailto:info@example.com" class="mail">info@example.com</a><br/></li> 
-                 <li><a href="" class="telefon">+380991111111</a><br/></li>
-                </ul>
-             </address>
-            
+    <footer class="footer">  
+        <div class="footer-cont  conteiner">
+            <div class="conteiner footersait">       
+                <a href="./index.html" class="logotip">
+                    <span class="logo-item">Web</span> Studio</a>                 
+                    <address>
+                        <ul class="data">               
+                         <li><span class="address">г. Киев, пр-т Леси Украинки, 26</span><br/></li> 
+                         <li><a href="mailto:info@example.com" class="mail">info@example.com</a><br/></li> 
+                         <li><a href="" class="telefon">+380991111111</a><br/></li>
+                        </ul>
+                     </address>
             </div> 
           
-            <div>
+            <div class="join-cont">
              <b class="join">Присоединяйтесь</b>
-              <ul>
+              <ul class="join-link">
                 <li><a href="" aria-label="Ссылка на Инстаграм">Инстаграм</a></li>  
                 <li><a href="" aria-label="Ссылка на Твиттер">Твиттер</a></li>  
                 <li><a href="" aria-label="Ссылка на Фейсбук">Фейсбук</a></li>  
@@ -144,16 +150,18 @@
               </ul>
              </div>
 
-            <div>
-                <b class="subscribe">Подпишитесь на рассылку</b>
-                E-MAIL
+            <div class="subscribe-footer">
+                
+               <b class="subscribe">подпишитесь на рассылку</b>               
+              E-MAIL  
                 <a href="" class="footer-button">Подписаться</a>
             </div>
+        </div> 
+            
 
             <p class="copyright">2020 | Developed by GoIT Students </p>
 
     </footer>
-   
 
 </body>
 </html>
