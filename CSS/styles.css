@@ -47,7 +47,7 @@
  
  /* Логотип */    
 
- }
+ 
  .header-nav{
     display: flex;
     align-items: center;
@@ -208,10 +208,7 @@
     height: 251px;
     
  }
- .advantage-link:focus,
-  .advantage-link:hover{
-    background: var(--accent-color) ;
- }
+ 
  .clock{
      background:#F5F4FA; ;
      padding: 25px 100px;
@@ -391,20 +388,57 @@
  .clients-item{
      display: flex;
      justify-content:space-between;
-
-     padding: 0px;
      
-    
      
+ }
+ .logo1{
+     padding-top: 20px;
+     padding-right: 66.7px;
+     padding-bottom: 21px;
+     padding-left: 59px;
+ }
+ 
+ 
+ .logo2{
+    padding-top: 19px;
+    padding-right: 65px;
+    padding-bottom: 19px;
+    padding-left: 65px;
+ }
+ .logo3{
+    padding-top: 24px;
+    padding-right: 64px;
+    padding-bottom: 23.4px;
+    padding-left: 65px;
+ }
+ .logo4{
+    padding-top: 24px;
+    padding-right: 45.3px;
+    padding-bottom: 24px;
+    padding-left: 45px;
+ }
+ .logo5{
+    padding-top: 22px;
+    padding-right: 51px;
+    padding-bottom: 21px;
+    padding-left: 56px;
+ } 
+ .logo6{
+    padding-top: 22px;
+    padding-right: 40.5px;
+    padding-bottom: 22.5px;
+    padding-left: 41px;
  }
  .clients-img{
     border: 1px solid #AFB1B8;
     
     border-radius: 4px;
     
+    
+
     margin-top: 0px;
-    margin-right: 30px;  
-    padding: 22px 45px; 
+    margin-right: 30px;
+     
 
     width: 170px;
     
@@ -412,7 +446,6 @@
  .clients-img:last-child{
      margin-right: 0px;
  }
- 
  
  
 /* Футер */
@@ -563,8 +596,30 @@
 .butt{
     margin-right: 8px;
 }
+
 .butt:last-child{
     margin-right: 0px;
+}
+.button-items{
+    padding: 6px 22px;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    min-width: 73px;
+
+     text-align: center;
+     letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.button-items:hover,
+ .button-items:focus{
+ background: var(--accent-color);
 }
 /* Наши возможности */
 .portfolio-capabilities{
