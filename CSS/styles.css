@@ -641,6 +641,7 @@
 } 
 .butt:hover, .butt:focus{
     background-color:var(--accent-color)  ;
+    color:#FFFFFF ;
 }
 
 /* Наши возможности */
