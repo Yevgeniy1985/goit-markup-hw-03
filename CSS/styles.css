@@ -565,7 +565,7 @@
 }
 .footer-button{
     display: inline-block;
-    background: var(--accent-color) ;
+    background-color: var(--accent-color) ;
     color:#FFFFFF ;
     padding: 10px 45px;
     text-align: center;
@@ -639,6 +639,9 @@
 .butt:last-child{
     margin-right: 0px;
 } 
+.butt:hover, .butt:focus{
+    background-color:var(--accent-color)  ;
+}
 
 /* Наши возможности */
 .portfolio-capabilities{
