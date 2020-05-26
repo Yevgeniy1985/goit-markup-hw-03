@@ -336,8 +336,9 @@
     text-transform: uppercase;
     text-align: center;
 
-    margin-right: 0px;
+    
     margin-bottom: 0px; 
+    margin-top: 0px
     
     
  }
@@ -495,12 +496,14 @@
         
 }
 .footersait{
-    margin-right: 69px;
+    padding-right: 69px;
+    padding-left: 0px;
 }
 .data{
-    
+    margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
+    padding-top: 10px;
 }
 
 
@@ -533,15 +536,16 @@
      
  }
  .join-cont{
-     margin-right: 93px;
+     padding-right: 93px;
      
  }
  
  
  .join-link{
-     margin-top: 16px;
+     margin-top: 0px;
      margin-bottom: 0px;
-     padding: 0px;
+     padding-top: 16px;
+     padding-left: 0px;
      justify-content:space-between;
      display: flex;
      
@@ -561,7 +565,7 @@
      
 .subscribe-footer{
     
-    margin-right: 200px;
+    padding-right: 200px;
 }
 .footer-button{
     display: inline-block;
