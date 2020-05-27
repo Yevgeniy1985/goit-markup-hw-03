@@ -107,12 +107,10 @@
      font-size: 14px;
      line-height: 1.14;
      text-decoration: none;
-
-  
-         
+        
  }
- .navi-contact li{
-    margin-right: 30px;
+ .mail-head{
+     padding-right: 30px;
  }
     
  
