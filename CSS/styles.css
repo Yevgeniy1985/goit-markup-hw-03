@@ -110,8 +110,20 @@
         
  }
  .mail-head{
-     padding-right: 30px;
- }
+     
+      padding-right: 30px; 
+    }
+    .icon{
+      
+     width: 16px;
+     height: 11.2px;
+     
+     background-image:
+      url(../images/envelope\ \(hover\).svg);
+      background-repeat: no-repeat; 
+    }
+     
+    
 
  .navi-contact{
     display: flex;
@@ -149,15 +161,16 @@
      max-width:1600px ; 
      height:600px; ; 
      background-color:#000000 ; 
-     background-image: linear-gradient(rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)),
+     background-image: linear-gradient(rgba(47, 48, 58, 0.8),
+     rgba(47, 48, 58, 0.8)),
      url(../images/Header\ img\ \(1\).jpg);
-      /* background-image: url(../images/Header\ img\ \(1\).jpg);  */
+      
      background-position: center;
      background-repeat:no-repeat;
  }
 
  .hero{
-     /* background-color:var(--secondary-text-color) ; */
+     
      color:#FFFFFF  ;   
     
      font-weight: 700;
@@ -208,15 +221,15 @@
  .advantage-list:last-child{
      margin-right: 0px;
  }
- .satelite:hover, 
+  .satelite:hover, 
  .satelite:focus{
-    background-color: var(--accent-color) ;
- }
+    background-color: var(--accent-color) ; 
+ } 
    
  
  
  .satelite{
-     background-color:#F5F4FA; ;
+     background-color:#F5F4FA;
 
      padding: 25px 100px;
      margin-bottom: 30px;
@@ -225,46 +238,49 @@
 
  .satelite-cont{
     width: 270px;
-    
-    
+       
  }
  
+
+ 
+ 
  .clock{
-     background-color:#F5F4FA; ;
+     background-color:#F5F4FA;
+
      padding: 25px 100px;
      margin-bottom: 30px;
  }
- .clock:hover, .clock:focus{
-    background-color: var(--accent-color) ;
- }
+   .clock:hover, .clock:focus{
+    background-color: var(--accent-color) ; 
+ } 
  .clock-cont{
     width: 270px;
     
     
  }
  .diagram{
-     background-color:#F5F4FA; ;
+     background-color:#F5F4FA;
      padding: 25px 100px;
      margin-bottom: 30px;
      
  }
- .diagram:hover, .diagram:focus{
-    background-color: var(--accent-color) ;
- }
+  .diagram:hover, .diagram:focus{
+    background-color: var(--accent-color) ; 
+ } 
  .diagram-cont{
     width: 270px;
     
     
  }
  .astronaut{
-    background-color:#F5F4FA; ;
+    background-color:#F5F4FA;
     padding: 25px 100px;
     margin-bottom: 30px;
  }
  .astronaut:hover,
   .astronaut:focus{
-    background-color: var(--accent-color) ;  
- }
+    background-color: var(--accent-color) ;   
+ } 
  .astronaut-cont{
     width: 270px;
     
