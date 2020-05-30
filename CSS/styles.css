@@ -100,7 +100,7 @@
     color:var(--accent-color)
  }
 
- .navi-contact a{
+ .navi-contact a {
      color:var(--secondary-text-color) ;
 
      font-weight: 500;
@@ -113,15 +113,25 @@
      
       padding-right: 30px; 
     }
-    .icon{
+    
+   
+     .icon{
       
-     width: 16px;
-     height: 11.2px;
-     
+        display: inline-flex;
+        align-items: center;
+           
      background-image:
       url(../images/envelope\ \(hover\).svg);
       background-repeat: no-repeat; 
     }
+    .icon::before{
+        content:;
+        width: 16px;
+        height: 11.2px;
+
+        margin-right: 16px;
+
+        }
      
     
 
@@ -221,20 +231,29 @@
  .advantage-list:last-child{
      margin-right: 0px;
  }
-  .satelite:hover, 
- .satelite:focus{
-    background-color: var(--accent-color) ; 
- } 
-   
- 
+
  
  .satelite{
      background-color:#F5F4FA;
+     width: 70px;
+     height: 70px;
 
      padding: 25px 100px;
      margin-bottom: 30px;
-     
- }
+     display: inline-flex;
+     align-items: center;
+    }
+.satelite::before{
+    content: ;
+    width: 70px;
+    height: 70px;
+
+    background-image:
+     url(../images/antenna\ 1.svg);
+     background-size: contain;
+}
+
+
 
  .satelite-cont{
     width: 270px;
@@ -250,9 +269,9 @@
      padding: 25px 100px;
      margin-bottom: 30px;
  }
-   .clock:hover, .clock:focus{
+   /* .clock:hover, .clock:focus{
     background-color: var(--accent-color) ; 
- } 
+ }  */
  .clock-cont{
     width: 270px;
     
@@ -264,9 +283,9 @@
      margin-bottom: 30px;
      
  }
-  .diagram:hover, .diagram:focus{
+  /* .diagram:hover, .diagram:focus{
     background-color: var(--accent-color) ; 
- } 
+ }  */
  .diagram-cont{
     width: 270px;
     
@@ -277,10 +296,10 @@
     padding: 25px 100px;
     margin-bottom: 30px;
  }
- .astronaut:hover,
+ /* .astronaut:hover,
   .astronaut:focus{
     background-color: var(--accent-color) ;   
- } 
+ }  */
  .astronaut-cont{
     width: 270px;
     
